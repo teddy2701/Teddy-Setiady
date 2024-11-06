@@ -1,0 +1,52 @@
+{
+  "HomePage": {
+    "title": "Hello, I'm Teddy Setiady",
+    "titleDesc": "Full Stack Developer | Turning Ideas into Reality",
+    "desc": "I am a full stack developer from Medan, North Sumatra. With 3 years of experience building innovative web applications and extensive expertise in the latest technologies, I am ready to help you achieve your digital goals.",
+    "btnMore": "More about me",
+    "contact": "Contact",
+    "contactDesk": "Get in touch"
+  },
+
+  "About": {
+    "title": "About Me",
+    "titleDesc": "A brief story about myself",
+    "desc1": "My name is Teddy Setiady, I am a full stack developer from Medan, North Sumatra.",
+    "desc2": "Having a high interest in the world of technology since junior high school, I started learning the basics of programming in 2014. I managed to win third place in a robotics competition held in 2017 at the city level.",
+    "desc3": "With over 3 years of experience, I have successfully built various complex web and mobile applications for several companies and educational foundations in Medan.",
+    "desc4": "Furthermore, I also have expertise in creating Arduino-based devices and can determine the hardware and sensor requirements according to client requests. Not only programming skills, I also have SEO optimization capabilities and can run Google Ads campaigns.",
+    "desc5": "I believe that technology can be used to make positive changes, and I am very enthusiastic about collaborating on exciting projects.",
+    "tech": "Technologies",
+    "techDesc": "Technologies I use"
+  },
+
+  "Project": {
+    "title": "Projects",
+    "titleDesc": "Here are some projects I have worked on",
+    "proyek": [
+      {
+        "id": 1,
+        "title": "Portfolio",
+        "description": "My personal website to showcase my experience and projects I've worked on.",
+        "demoUrl": "URL_ADDRESS",
+        "codeUrl": "URL_ADDRESS",
+        "tags": ["NextJS", "TailwindCSS"]
+      },
+      {
+        "id": 2,
+        "title": "E-LKPD CHEMISTRY",
+        "description": "A website used for learning chemistry for vocational high school students, making it more interactive and easy.",
+        "demoUrl": "https://lkpd-winarti16.com/",
+        "tags": ["NextJS", "TailwindCSS", "ExpressJS", "MongoDB"]
+      }
+    ]
+  },
+
+  "Navbar": {
+    "Home": "Home",
+    "About": "About",
+    "Projects": "Projects",
+    "Theme": "Theme",
+    "Language": "EN"
+  }
+}

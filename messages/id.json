@@ -1,0 +1,52 @@
+{
+  "HomePage": {
+    "title": "Halo, Saya Teddy Setiady",
+    "titleDesc": "Full Stack Developer | Mengubah Ide Menjadi Kenyataan",
+    "desc": "Saya adalah seorang full stack developer yang berasal dari Medan, Sumatera Utara. Memiliki pengalaman 3 tahun membangun aplikasi web yang inovatif dengan keahlian yang luas dalam teknologi terkini, saya siap membantu Anda mencapai tujuan digital.",
+    "btnMore": "Lebih lanjut tentang saya",
+    "contact": "Kontak",
+    "contactDesk": "Hubungi saya"
+  },
+
+  "About": {
+    "title": "Tentang Saya",
+    "titleDesc": "Sedikit c erita tentang saya",
+    "desc1": "Nama saya Teddy Setiady, saya adalah seorang full stack developer yang berasal dari Medan, Sumatera Utara.",
+    "desc2": "Memiliki minat yang tinggi tentang dunia teknologi semenjak sekolah menengah pertama, saya mulai mempelajari dasar-dasar pemrograman sejak tahun 2014. Saya berhasil mendapatkan juara ketiga pada lomba robotik yang diadakan tahun 2017 tingkat kota.",
+    "desc3": "Dengan pengalaman lebih dari 3 tahun, saya telah berhasil membangun berbagai aplikasi web dan mobile yang kompleks untuk berbagai keperluan beberapa perusahaan dan yayasan pendidikan yang ada di medan",
+    "desc4": "Tidak sampai disitu,saya juga memiliki keahlian dalam membuat perangkat berbasis arduino serta mampu menentukan kebutuhan perangkat dan sensor yang digunakan sesuai dengan permintaan client. Tidak hanya kemampuan pemrograman saya juga memiliki kemampuan optimasi SEO dan menjalankan kampanye iklan Google Ads.",
+    "desc5": "Saya percaya bahwa teknologi dapat digunakan untuk membuat perubahan positif, dan saya sangat antusias untuk bekerja sama dalam proyek-proyek yang menarik.",
+    "tech": "Teknologi",
+    "techDesc": "Teknologi yang saya gunakan"
+  },
+
+  "Project": {
+    "title": "Proyek",
+    "titleDesc": "Berikut adalah beberapa proyek yang telah saya kerjakan",
+    "proyek": [
+      {
+        "id": 1,
+        "title": "Portofolio",
+        "description": "Situs web pribadi saya untuk menampilkan pengalaman saya dan proyek yang saya kerjakan.",
+        "demoUrl": "URL_ADDRESS",
+        "codeUrl": "URL_ADDRESS",
+        "tags": ["NextJS", "TailwindCSS"]
+      },
+      {
+        "id": 2,
+        "title": "E-LKPD KIMIA",
+        "description": "Website yang digunakan untuk belajar kimia untuk siswa SMK semakin interaktif dan mudah.",
+        "demoUrl": "https://lkpd-winarti16.com/",
+        "tags": ["NextJS", "TailwindCSS", "ExpressJS", "MongoDB"]
+      }
+    ]
+  },
+
+  "Navbar": {
+    "Home": "Beranda",
+    "About": "Tentang",
+    "Projects": "Proyek",
+    "Theme": "Tema",
+    "Language": "ID"
+  }
+}
