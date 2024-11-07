@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "../globals.css";
-import Navbar from "../../components/Navbar/index";
+import Navbar from "../../components/Navbar";
 import { Providers } from "../Providers";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
