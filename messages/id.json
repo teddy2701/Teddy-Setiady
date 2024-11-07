@@ -34,7 +34,7 @@
         "id": 1,
         "title": "Portofolio",
         "description": "Situs web pribadi saya untuk menampilkan pengalaman saya dan proyek yang saya kerjakan.",
-        "demoUrl": "URL_ADDRESS",
+        "demoUrl": "https://teddy-setiady.vercel.app/",
         "codeUrl": "https://github.com/teddy2701/Teddy-Setiady",
         "tags": ["NextJS", "TailwindCSS"]
       },
