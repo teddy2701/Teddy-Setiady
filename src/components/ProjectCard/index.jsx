@@ -1,8 +1,6 @@
 import Link from "next/link";
 
 const ProjectCard = ({ project }) => {
-  console.log(project);
-
   return (
     <div className="rounded-lg overflow-hidden shadow-lg bg-white dark:bg-blackSecondary my-3 ">
       <div className="px-6 py-4">

@@ -5,7 +5,7 @@ import { Link } from "../../i18n/routing";
 import { IconAddressBook } from "@tabler/icons-react";
 import { tangan, discord, instagram, gmail, github } from "../../assets";
 
-export const cards = [
+const cards = [
   {
     id: 1,
     title: "Instagram",

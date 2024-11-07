@@ -19,12 +19,8 @@ import {
   mysql,
 } from "../../../assets";
 
-export const techs = [
-  {
-    id: 1,
-    title: "NextJS",
-    img: nextjs,
-  },
+const teknologi = [
+  { id: 1, title: "NextJS", img: nextjs },
   {
     id: 2,
     title: "ReactJS",
@@ -94,7 +90,6 @@ export const techs = [
 
 const Page = () => {
   const t = useTranslations("About");
-
   return (
     <>
       <div className="flex flex-col ">
@@ -122,7 +117,7 @@ const Page = () => {
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 gap-4 ">
-        {techs.map((item) => {
+        {teknologi.map((item) => {
           return (
             <div
               key={item.id}
