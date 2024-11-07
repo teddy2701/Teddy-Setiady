@@ -17,14 +17,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata = {
-  title: "Teddy Setiady",
-  description: "Temukan developer full stack yang berpengalaman di Indonesia",
-  icons: {
-    icon: "../favicon.ico",
-  },
-};
-
 export default async function RootLayout({ children, params: { locale } }) {
   const messeage = await getMessages();
   return (

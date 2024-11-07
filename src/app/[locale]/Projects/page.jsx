@@ -1,10 +1,15 @@
 import React from "react";
 import ProjectCard from "../../../components/ProjectCard";
 import { useTranslations } from "next-intl";
+import PageMetaData from "../../../components/PageMetaData";
+
+export async function generateMetadata() {
+  return PageMetaData("Project");
+}
 
 const Page = () => {
   const t = useTranslations("Project");
-  const projects = t.raw("proyek");
+  const item = t.raw("proyek");
 
   return (
     <div className="container mx-auto px-4">
@@ -13,7 +18,7 @@ const Page = () => {
         <span className="font-thin text-sm">{t("titleDesc")}</span>
       </div>
       <div className="">
-        {projects.map((project) => (
+        {item.map((project) => (
           <ProjectCard
             key={project.id}
             project={{

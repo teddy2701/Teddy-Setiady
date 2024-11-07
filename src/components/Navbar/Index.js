@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import {
-  FloatingDock,
   FloatingDockMobile,
   FloatingDockDesktop,
   IconContainer,

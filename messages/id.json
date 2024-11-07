@@ -29,13 +29,13 @@
     "metaDescription": "Jelajahi proyek-proyek yang dikembangkan oleh Teddy Setiady, termasuk aplikasi web dan perangkat berbasis Arduino.",
     "title": "Proyek",
     "titleDesc": "Berikut adalah beberapa proyek yang telah saya kerjakan",
-    "projects": [
+    "proyek": [
       {
         "id": 1,
         "title": "Portofolio",
         "description": "Situs web pribadi saya untuk menampilkan pengalaman saya dan proyek yang saya kerjakan.",
         "demoUrl": "URL_ADDRESS",
-        "codeUrl": "URL_ADDRESS",
+        "codeUrl": "https://github.com/teddy2701/Teddy-Setiady",
         "tags": ["NextJS", "TailwindCSS"]
       },
       {

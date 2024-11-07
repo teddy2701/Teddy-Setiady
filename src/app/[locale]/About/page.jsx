@@ -18,6 +18,11 @@ import {
   php,
   mysql,
 } from "../../../assets";
+import PageMetaData from "../../../components/PageMetaData";
+
+export async function generateMetadata() {
+  return PageMetaData("About");
+}
 
 const teknologi = [
   { id: 1, title: "NextJS", img: nextjs },

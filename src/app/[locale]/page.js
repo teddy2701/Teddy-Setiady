@@ -4,6 +4,11 @@ import { useTranslations } from "next-intl";
 import { Link } from "../../i18n/routing";
 import { IconAddressBook } from "@tabler/icons-react";
 import { tangan, discord, instagram, gmail, github } from "../../assets";
+import PageMetaData from "../../components/PageMetaData";
+
+export async function generateMetadata() {
+  return PageMetaData("HomePage");
+}
 
 const cards = [
   {
