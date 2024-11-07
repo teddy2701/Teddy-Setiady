@@ -1,5 +1,7 @@
 {
   "HomePage": {
+    "metaTitle": "Teddy Setiady - Full Stack Developer",
+    "metaDescription": "Personal website of Teddy Setiady, a Full Stack Developer from Medan, Indonesia.",
     "title": "Hello, I'm Teddy Setiady",
     "titleDesc": "Full Stack Developer | Turning Ideas into Reality",
     "desc": "I am a full stack developer from Medan, North Sumatra. With 3 years of experience building innovative web applications and extensive expertise in the latest technologies, I am ready to help you achieve your digital goals.",
@@ -9,6 +11,8 @@
   },
 
   "About": {
+    "metaTitle": "About Teddy Setiady - Full Stack Developer",
+    "metaDescription": "Learn more about Teddy Setiady, a Full Stack Developer with 3 years of experience in web development.",
     "title": "About Me",
     "titleDesc": "A brief story about myself",
     "desc1": "My name is Teddy Setiady, I am a full stack developer from Medan, North Sumatra.",
@@ -21,6 +25,8 @@
   },
 
   "Project": {
+    "metaTitle": "Projects by Teddy Setiady",
+    "metaDescription": "Explore the projects developed by Teddy Setiady, including web applications and Arduino-based devices.",
     "title": "Projects",
     "titleDesc": "Here are some projects I have worked on",
     "proyek": [

@@ -92,7 +92,7 @@ export const techs = [
   },
 ];
 
-const page = () => {
+const Page = () => {
   const t = useTranslations("About");
 
   return (
@@ -138,4 +138,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

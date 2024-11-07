@@ -67,7 +67,7 @@ const Page = () => {
               href={card.link}
               key={card.id}
               target="_BLANK"
-              className="py-1 px-2 bg-white dark:bg-blackSecondary ring-2 ring-gray-200 dark:ring-gray-900 rounded-md flex justify-start items-center gap-1"
+              className="py-2 px-3 bg-white dark:bg-blackSecondary ring-2 ring-gray-200 dark:ring-gray-900 rounded-md flex justify-start items-center gap-1"
             >
               <Image
                 src={card.icon}

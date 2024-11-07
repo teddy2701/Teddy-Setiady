@@ -98,10 +98,12 @@ export function IconContainer({ title, icon, href }) {
   const Ring = pathname == href;
 
   let ref = useRef(null);
-  const { mouseX } = useContext(mouseContext) || { mouseX: useMotionValue(0) };
-  let distance = useTransform(mouseX, (val) => {
-    let bounds = ref.current?.getBoundingClientRect() ?? { x: 0, width: 0 };
+  const mouseX = useMotionValue(0);
+  const { mouseX: contextMouseX } = useContext(mouseContext) || {};
+  const effectiveMouseX = contextMouseX || mouseX;
 
+  let distance = useTransform(effectiveMouseX, (val) => {
+    let bounds = ref.current?.getBoundingClientRect() ?? { x: 0, width: 0 };
     return val - bounds.x - bounds.width / 2;
   });
 
@@ -171,9 +173,11 @@ export function IconContainer({ title, icon, href }) {
   );
 }
 
-export default {
+const FloatingDockComponents = {
   FloatingDock,
   FloatingDockDesktop,
   FloatingDockMobile,
   IconContainer,
 };
+
+export default FloatingDockComponents;
