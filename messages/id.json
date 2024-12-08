@@ -6,8 +6,33 @@
     "titleDesc": "Full Stack Developer | Mengubah Ide Menjadi Kenyataan",
     "desc": "Saya adalah seorang full stack developer yang berasal dari Medan, Sumatera Utara. Memiliki pengalaman 3 tahun membangun aplikasi web yang inovatif dengan keahlian yang luas dalam teknologi terkini, saya siap membantu Anda mencapai tujuan digital.",
     "btnMore": "Lebih lanjut tentang saya",
+    "workExperience": "Pengalaman Kerja",
+    "workExperienceDesc": "Pengalaman saya dalam bidang industri",
     "contact": "Kontak",
-    "contactDesk": "Hubungi saya"
+    "contactDesk": "Hubungi saya",
+    "Kerja": [
+      {
+        "id": 1,
+        "title": "MBE Towing",
+        "textPencapaian": "Pencapaian",
+        "posisi": "Digital Marketing & Web Manager",
+        "desc": {
+          "paragraf": "Selama bekerja di MBE Towing, saya bertanggung jawab atas pengembangan dan implementasi strategi pemasaran digital dengan tujuan meningkatkan penjualan dan lead. Tugas utama saya termasuk:",
+          "tanggungJawab": [
+            "Merancang dan mengelola kampanye Google Ads dan Google Bisnis untuk memaksimalkan jumlah lead yang didapatkan.",
+            "Menyusun format surat resmi perusahaan serta berkas kerja sama antar perusahaan, termasuk proposal penawaran yang disesuaikan dengan kebutuhan bisnis.",
+            "Mengelola pembuatan, perawatan, dan pembaruan website perusahaan, serta memastikan konten artikel diunggah secara berkala untuk meningkatkan SEO.",
+            "Melakukan penyesuaian desain halaman utama website guna memastikan tampilan yang menarik dan ramah pengguna."
+          ]
+        },
+        "date": "2020 - 2024",
+        "pencapaian": [
+          "Meningkatkan penjualan sebesar 200% pada tahun pertama bekerja melalui strategi pemasaran digital yang efektif.",
+          "Mencapai pertumbuhan penjualan bertahap sebesar 6% per bulan selama tahun ketiga.",
+          "Berhasil meningkatkan peringkat website untuk kata kunci utama seperti 'derek mobil di Medan' dan 'towing Medan' melalui konten artikel yang dioptimalkan untuk SEO."
+        ]
+      }
+    ]
   },
 
   "About": {

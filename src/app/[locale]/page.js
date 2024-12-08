@@ -3,8 +3,9 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "../../i18n/routing";
 import { IconAddressBook } from "@tabler/icons-react";
-import { tangan, discord, instagram, gmail, github } from "../../assets";
+import { tangan, discord, instagram, gmail, github, work } from "../../assets";
 import PageMetaData from "../../components/PageMetaData";
+import PengalamanKerja from "../../components/PengalamanKerja";
 
 export async function generateMetadata() {
   return PageMetaData("HomePage");
@@ -39,6 +40,7 @@ const cards = [
 
 const Page = () => {
   const t = useTranslations("HomePage");
+  const riwayatKerja = t.raw("Kerja");
   return (
     <>
       <div className="flex flex-col ">
@@ -84,6 +86,28 @@ const Page = () => {
           );
         })}
       </div>
+
+      <div className="flex flex-col">
+        <h2 className="font-bold text-2xl">
+          <Image src={work} alt="work" className="w-10 inline-block" /> &nbsp;
+          {t("workExperience")}
+        </h2>
+        <span className="font-thin text-sm">{t("workExperienceDesc")}</span>
+      </div>
+
+      {riwayatKerja.map((item) => {
+        return (
+          <PengalamanKerja
+            key={item.id}
+            title={item.title}
+            posisi={item.posisi}
+            desc={item.desc}
+            date={item.date}
+            pencapaian={item.pencapaian}
+            text={item.textPencapaian}
+          />
+        );
+      })}
     </>
   );
 };

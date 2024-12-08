@@ -7,7 +7,32 @@
     "desc": "I am a full stack developer from Medan, North Sumatra. With 3 years of experience building innovative web applications and extensive expertise in the latest technologies, I am ready to help you achieve your digital goals.",
     "btnMore": "More about me",
     "contact": "Contact",
-    "contactDesk": "Get in touch"
+    "contactDesk": "Get in touch",
+    "workExperience": "Work Experience",
+    "workExperienceDesc": "My experience is in the industrial field",
+    "Kerja": [
+      {
+        "id": 1,
+        "title": "MBE Towing",
+        "textPencapaian": "Achievements",
+        "posisi": "Digital Marketing & Web Manager",
+        "desc": {
+          "paragraf": "During my time at MBE Towing, I was responsible for developing and implementing digital marketing strategies aimed at increasing sales and leads. My key responsibilities included:",
+          "tanggungJawab": [
+            "Designing and managing Google Ads and Google Business campaigns to maximize lead generation.",
+            "Drafting official company letters and business partnership documents, including tailored proposals to meet specific business needs.",
+            "Overseeing the creation, maintenance, and updates of the company's website, ensuring that articles were regularly uploaded to enhance SEO.",
+            "Adjusting the website's homepage design to ensure an attractive and user-friendly interface."
+          ]
+        },
+        "date": "2020 - 2024",
+        "pencapaian": [
+          "Increased sales by 200% in the first year through effective digital marketing strategies.",
+          "Achieved a steady 6% monthly sales growth during the third year.",
+          "Successfully improved website ranking for key terms such as 'car towing in Medan' and 'towing Medan' through optimized article content for SEO."
+        ]
+      }
+    ]
   },
 
   "About": {
