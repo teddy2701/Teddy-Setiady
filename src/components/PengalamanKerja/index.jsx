@@ -6,32 +6,20 @@ const index = ({ title, date, desc, pencapaian, posisi, text }) => {
       <div className="flex justify-between items-center mb-3 ">
         <div className="flex flex-col ">
           <span className="font-bold">{title}</span>
-          <span c>{posisi}</span>
+          <span>{posisi}</span>
         </div>
         <p className="font-semibold">{date}</p>
       </div>
 
       <p>{desc?.paragraf}</p>
-      {desc.tanggungJawab && (
-        <ul className="list-disc ms-5">
-          {desc.tanggungJawab.map((item, index) => (
-            <li key={index}>
-              <span className="">{item}</span>
-            </li>
-          ))}
-        </ul>
-      )}
 
-      <p className="mt-3">{text} :</p>
-      {pencapaian && (
-        <ul className="list-disc ms-5">
-          {pencapaian.map((item, index) => (
-            <li key={index}>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      )}
+      <ul className="list-disc ms-5">
+        {desc.map((item, index) => (
+          <li key={index}>
+            <span className="">{item}</span>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

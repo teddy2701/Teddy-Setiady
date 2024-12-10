@@ -91,6 +91,11 @@ const teknologi = [
     title: "MySql",
     img: mysql,
   },
+  {
+    id: 15,
+    title: "React Native",
+    img: react,
+  },
 ];
 
 const Page = () => {
