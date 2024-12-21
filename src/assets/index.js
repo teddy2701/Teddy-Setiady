@@ -18,9 +18,11 @@ import react from "./react-svgrepo-com.svg";
 import php from "./icons8-php.svg";
 import mysql from "./icons8-mysql.svg";
 import work from "./work-svgrepo-com.svg";
+import linkedin from "./icons8-linkedin.svg";
 
 export {
   tangan,
+  linkedin,
   discord,
   gmail,
   instagram,

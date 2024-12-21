@@ -3,7 +3,15 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "../../i18n/routing";
 import { IconAddressBook } from "@tabler/icons-react";
-import { tangan, discord, instagram, gmail, github, work } from "../../assets";
+import {
+  tangan,
+  discord,
+  instagram,
+  gmail,
+  github,
+  work,
+  linkedin,
+} from "../../assets";
 import PageMetaData from "../../components/PageMetaData";
 import PengalamanKerja from "../../components/PengalamanKerja";
 
@@ -36,6 +44,13 @@ const cards = [
     icon: github,
     link: "https://github.com/teddy2701",
   },
+
+  {
+    id: 5,
+    title: "LinkedIn",
+    icon: linkedin,
+    link: "https:/linkedin.com/in/",
+  },
 ];
 
 const Page = () => {
@@ -52,12 +67,24 @@ const Page = () => {
       </div>
       <div className="flex flex-col justify-center items-start gap-3">
         <p className="text-justify">{t("desc")}</p>
-        <Link
-          className="py-2 px-3 ring-2 ring-primary rounded-lg font-semibold text-sm "
-          href="/About"
-        >
-          {t("btnMore")}
-        </Link>
+        <div className="flex justify-start items-center gap-5 ">
+          <Link
+            className="py-2 px-3 text-white ring-2 ring-primary bg-primary rounded-lg font-semibold text-sm  "
+            href="/About"
+          >
+            {t("btnMore")}
+          </Link>
+
+          {/* <DownloadCV title="resume" /> */}
+          <a
+            href="/api/download-cv"
+            className="py-2 px-3 ring-2 ring-primary rounded-lg font-semibold text-sm "
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </div>
       </div>
 
       <div className="flex flex-col">
@@ -67,7 +94,7 @@ const Page = () => {
         </h2>
         <span className="font-thin text-sm">{t("contactDesk")}</span>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 ">
+      <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 ">
         {cards.map((card) => {
           return (
             <a
