@@ -18,13 +18,15 @@ const ProjectCard = ({ project }) => {
         ))}
       </div>
       <div className="px-6 py-4">
-        <Link
-          href={project.demoUrl}
-          target="_blank"
-          className="bg-primary hover:bg-primaryBold text-white font-bold py-2 px-4 rounded mr-2"
-        >
-          Demo
-        </Link>
+        {project.demoUrl && (
+          <Link
+            href={project.demoUrl}
+            target="_blank"
+            className="bg-primary hover:bg-primaryBold text-white font-bold py-2 px-4 rounded mr-2"
+          >
+            Demo
+          </Link>
+        )}
         {project.codeUrl && (
           <Link
             href={project.codeUrl}

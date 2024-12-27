@@ -57,10 +57,40 @@
       },
       {
         "id": 2,
+        "title": "Aplikasi Android dan Website Peringatan Pekerjaan",
+        "description": "Sistem informasi peringatan pekerjaan melalui aplikasi android. Menerima data melalui notifikasi walaupun perangkat dalam mode doze.",
+        "tags": [
+          "ReactJS",
+          "TailwindCSS",
+          "ExpressJS",
+          "MongoDB",
+          "React Native",
+          "Firebase"
+        ]
+      },
+      {
+        "id": 3,
         "title": "E-LKPD KIMIA",
         "description": "Website yang digunakan untuk belajar kimia untuk siswa SMK semakin interaktif dan mudah.",
-        "demoUrl": "https://lkpd-winarti16.com/",
         "tags": ["NextJS", "TailwindCSS", "ExpressJS", "MongoDB"]
+      },
+      {
+        "id": 4,
+        "title": "Website Monitoring Limbah Cair",
+        "description": "Sistem monitoring limbah cair dengan beberapa parameter sensor. menampilkan data realtime dalam bentuk grafik dan hak akses user dalam 3 level dalam menampilkan data.",
+        "tags": ["NextJS", "TailwindCSS", "ExpressJS", "MongoDB", "ChartJS"]
+      },
+      {
+        "id": 5,
+        "title": "Sistem Pengisian Galon Otomatis Berbasis Internet Of Thing",
+        "description": "sistem pengisian galon berbasis IoT menggunakan ESP 8266, sensor berat dan ultrasonic sebagai parameter, dan sebuah pompa 5V sebagai output.  pada aplikasi terdapat fitur administrasi untuk mengetahui jumlah debit air yang digunakan serta jumlah pendapatan berdasarkan jumlah pengisian galon.",
+        "tags": ["Internet Of Things", "React Native", "Firebase", "ChartJS"]
+      },
+      {
+        "id": 6,
+        "title": "Tabungan Bersama",
+        "description": "Sistem ini dibuat untuk mendukung administrasi tabungan bersama Pondok Pesantren.",
+        "tags": ["HTML5", "CSS3", "Mysql", "PHP"]
       }
     ]
   },

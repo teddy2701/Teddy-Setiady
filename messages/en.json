@@ -51,17 +51,47 @@
       {
         "id": 1,
         "title": "Portfolio",
-        "description": "My personal website to showcase my experience and projects I've worked on.",
-        "demoUrl": "URL_ADDRESS",
-        "codeUrl": "URL_ADDRESS",
+        "description": "My personal website to showcase my experience and the projects I have worked on.",
+        "demoUrl": "https://teddy-setiady.vercel.app/",
+        "codeUrl": "https://github.com/teddy2701/Teddy-Setiady",
         "tags": ["NextJS", "TailwindCSS"]
       },
       {
         "id": 2,
+        "title": "Android App and Job Alert Website",
+        "description": "A job alert information system through an Android application. It receives data via notifications even when the device is in doze mode.",
+        "tags": [
+          "ReactJS",
+          "TailwindCSS",
+          "ExpressJS",
+          "MongoDB",
+          "React Native",
+          "Firebase"
+        ]
+      },
+      {
+        "id": 3,
         "title": "E-LKPD CHEMISTRY",
-        "description": "A website used for learning chemistry for vocational high school students, making it more interactive and easy.",
-        "demoUrl": "https://lkpd-winarti16.com/",
+        "description": "A website used for learning chemistry for vocational students, making it more interactive and easier.",
         "tags": ["NextJS", "TailwindCSS", "ExpressJS", "MongoDB"]
+      },
+      {
+        "id": 4,
+        "title": "Wastewater Monitoring Website",
+        "description": "A wastewater monitoring system with several sensor parameters. It displays real-time data in the form of charts and offers user access at 3 levels to view the data.",
+        "tags": ["NextJS", "TailwindCSS", "ExpressJS", "MongoDB", "ChartJS"]
+      },
+      {
+        "id": 5,
+        "title": "Automatic Gallon Filling System Based on Internet Of Things",
+        "description": "An IoT-based gallon filling system using ESP 8266, weight and ultrasonic sensors as parameters, and a 5V pump as the output. The application has an admin feature to track water usage and income based on the number of gallons filled.",
+        "tags": ["Internet Of Things", "React Native", "Firebase", "ChartJS"]
+      },
+      {
+        "id": 6,
+        "title": "Joint Savings",
+        "description": "This system is designed to support the administration of joint savings at a boarding school.",
+        "tags": ["HTML5", "CSS3", "Mysql", "PHP"]
       }
     ]
   },
