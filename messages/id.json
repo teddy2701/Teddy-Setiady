@@ -69,10 +69,24 @@
         ]
       },
       {
+        "id": 7,
+        "title": "MBE Towing",
+        "description": "Website perusahaan towing mobil atau mobil derek. ",
+        "demoUrl": "https://mbetowing-service.com/",
+        "tags": ["Wordpress"]
+      },
+      {
         "id": 3,
         "title": "E-LKPD KIMIA",
         "description": "Website yang digunakan untuk belajar kimia untuk siswa SMK semakin interaktif dan mudah.",
         "tags": ["NextJS", "TailwindCSS", "ExpressJS", "MongoDB"]
+      },
+      {
+        "id": 8,
+        "title": "RKBN Internasional Chess",
+        "description": "Website yang digunakan sebagai media informasi dan form pendataran dengan payment gateway pada event RKBN Internasional Chess.",
+        "demoUrl": "https://rkbn-chess-internasional.com/",
+        "tags": ["ReactJS", "TailwindCSS", "ExpressJS", "MongoDB"]
       },
       {
         "id": 4,
